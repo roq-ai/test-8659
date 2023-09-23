@@ -1,0 +1,2772 @@
+[
+  {
+    "policy": [
+      {
+        "id": "4acbf1d3-27a8-4c58-920f-2ce1163f5509",
+        "policy_name": "Privacy Policy",
+        "policy_type": "Internal Policy",
+        "effective_date": "2023-09-23T09:27:36.363Z",
+        "expiry_date": "2023-09-23T02:29:42.226Z",
+        "description": "This policy outlines how we handle user data",
+        "created_at": "2023-09-23T07:21:49.297Z",
+        "updated_at": "2023-09-23T11:43:20.431Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e9c05d46-3591-47b9-8f13-6e1f8bfd4873",
+        "policy_name": "Terms of Service",
+        "policy_type": "Customer Policy",
+        "effective_date": "2023-09-23T02:28:17.804Z",
+        "expiry_date": "2023-09-22T13:58:47.688Z",
+        "description": "These are the terms and conditions for using our services",
+        "created_at": "2023-09-22T22:26:46.220Z",
+        "updated_at": "2023-09-22T13:59:38.636Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1e051d48-46ef-48a1-b5c1-ff702b712fca",
+        "policy_name": "Security Policy",
+        "policy_type": "Vendor Policy",
+        "effective_date": "2023-09-22T18:30:53.575Z",
+        "expiry_date": "2023-09-22T19:32:42.176Z",
+        "description": "This policy ensures the security of our systems",
+        "created_at": "2023-09-23T05:02:10.066Z",
+        "updated_at": "2023-09-23T02:20:52.580Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3949a3a6-b745-4b47-974b-e8fcfc22c6c0",
+        "policy_name": "Data Retention Policy",
+        "policy_type": "Regulatory Policy",
+        "effective_date": "2023-09-22T16:14:07.027Z",
+        "expiry_date": "2023-09-23T12:26:53.130Z",
+        "description": "This policy defines how long we retain user data",
+        "created_at": "2023-09-23T08:09:17.718Z",
+        "updated_at": "2023-09-23T09:08:04.319Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "54c202b7-cd78-49c1-8621-3f26acd803b1",
+        "policy_name": "Acceptable Use Policy",
+        "policy_type": "Employee Policy",
+        "effective_date": "2023-09-22T18:24:18.313Z",
+        "expiry_date": "2023-09-23T07:55:12.630Z",
+        "description": "This policy sets guidelines for acceptable use of our services",
+        "created_at": "2023-09-23T10:53:18.975Z",
+        "updated_at": "2023-09-22T18:29:47.655Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "cc3bd641-6bde-4d21-8885-cb7cee65d4e6",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial Fraud",
+        "date_detected": "2023-09-23T10:32:17.823Z",
+        "status": "Active",
+        "description": "This fraud involves stealing personal information for financial gain",
+        "created_at": "2023-09-23T00:16:15.319Z",
+        "updated_at": "2023-09-22T14:19:13.685Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2306cd6-bf87-4f6c-9b9a-15b50e498651",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber Fraud",
+        "date_detected": "2023-09-22T23:11:05.537Z",
+        "status": "Investigating",
+        "description": "This fraud involves unauthorized use of credit card information",
+        "created_at": "2023-09-22T21:54:51.579Z",
+        "updated_at": "2023-09-22T16:41:01.484Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd518d2d-1780-42d5-805f-205aec777f9b",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance Fraud",
+        "date_detected": "2023-09-23T08:48:52.930Z",
+        "status": "Closed",
+        "description": "This fraud involves making false insurance claims for financial gain",
+        "created_at": "2023-09-22T18:07:43.994Z",
+        "updated_at": "2023-09-22T16:51:13.235Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff06cafc-efd0-46f6-9fd6-5802f3a093ac",
+        "fraud_name": "Online Scams",
+        "fraud_type": "Consumer Fraud",
+        "date_detected": "2023-09-22T17:00:47.503Z",
+        "status": "Under Review",
+        "description": "This fraud involves deceiving individuals online to obtain personal information",
+        "created_at": "2023-09-22T14:28:52.462Z",
+        "updated_at": "2023-09-23T08:29:52.688Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d04f205-ace6-4974-8620-b13613d9be75",
+        "fraud_name": "Phishing",
+        "fraud_type": "Identity Fraud",
+        "date_detected": "2023-09-23T01:43:09.257Z",
+        "status": "Resolved",
+        "description": "This fraud involves tricking individuals into revealing sensitive information",
+        "created_at": "2023-09-22T21:35:49.177Z",
+        "updated_at": "2023-09-23T05:55:51.464Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "29250e7c-921d-4d0a-baf7-27e4667e4c3d",
+        "compliance_name": "GDPR Compliance",
+        "compliance_type": "Data Protection",
+        "date_implemented": "2023-09-22T19:36:53.423Z",
+        "status": "Compliant",
+        "description": "This compliance ensures the protection of personal data",
+        "created_at": "2023-09-22T18:10:04.048Z",
+        "updated_at": "2023-09-22T20:55:11.828Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "92aa5c4f-b207-4c3f-ac33-a59739359264",
+        "compliance_name": "HIPAA Compliance",
+        "compliance_type": "Healthcare",
+        "date_implemented": "2023-09-23T09:38:39.298Z",
+        "status": "Non-compliant",
+        "description": "This compliance ensures the security of healthcare information",
+        "created_at": "2023-09-23T00:33:49.203Z",
+        "updated_at": "2023-09-23T03:35:39.438Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc719c6c-f138-491d-82b5-557dd12bab6e",
+        "compliance_name": "PCI DSS Compliance",
+        "compliance_type": "Payment Card Security",
+        "date_implemented": "2023-09-23T04:52:48.483Z",
+        "status": "In Progress",
+        "description": "This compliance ensures the security of payment card data",
+        "created_at": "2023-09-23T12:20:30.629Z",
+        "updated_at": "2023-09-23T02:28:18.759Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e746840c-de4c-4960-81f0-aef2b0111dcd",
+        "compliance_name": "ISO 27001 Compliance",
+        "compliance_type": "Information Security",
+        "date_implemented": "2023-09-23T06:09:48.693Z",
+        "status": "Audited",
+        "description": "This compliance ensures the implementation of information security controls",
+        "created_at": "2023-09-23T03:09:39.530Z",
+        "updated_at": "2023-09-23T01:29:56.977Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a9af4ea9-eb83-4018-8dbe-5cd968821ae4",
+        "compliance_name": "SOC 2 Compliance",
+        "compliance_type": "Service Organization Controls",
+        "date_implemented": "2023-09-23T12:36:03.803Z",
+        "status": "Certified",
+        "description": "This compliance ensures the effectiveness of service organization controls",
+        "created_at": "2023-09-23T03:02:22.668Z",
+        "updated_at": "2023-09-22T14:39:43.918Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "f774d6e5-1073-4989-a5e8-086870fb0efb",
+        "case_name": "Legal Case",
+        "case_type": "Civil Case",
+        "date_reported": "2023-09-22T17:17:27.957Z",
+        "status": "Open",
+        "description": "This case involves a legal dispute between parties",
+        "created_at": "2023-09-23T01:04:31.647Z",
+        "updated_at": "2023-09-22T17:31:31.026Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37a69324-911d-4526-a1d3-6138fab7790a",
+        "case_name": "Investigation Case",
+        "case_type": "Criminal Case",
+        "date_reported": "2023-09-23T04:50:49.260Z",
+        "status": "Closed",
+        "description": "This case involves an investigation into potential wrongdoing",
+        "created_at": "2023-09-23T12:41:57.781Z",
+        "updated_at": "2023-09-22T21:45:53.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b410826c-e035-4ff2-90b5-459855218b86",
+        "case_name": "Fraud Case",
+        "case_type": "Financial Case",
+        "date_reported": "2023-09-23T11:00:03.415Z",
+        "status": "Pending",
+        "description": "This case involves fraudulent activities",
+        "created_at": "2023-09-22T20:13:36.532Z",
+        "updated_at": "2023-09-22T16:12:54.465Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5b67ddb-c4e9-48b9-b5dd-c00d30a15b7c",
+        "case_name": "Compliance Case",
+        "case_type": "Regulatory Case",
+        "date_reported": "2023-09-22T20:01:39.510Z",
+        "status": "Resolved",
+        "description": "This case involves compliance violations",
+        "created_at": "2023-09-23T05:19:57.353Z",
+        "updated_at": "2023-09-23T07:16:51.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6573fcb5-ef38-4e08-8267-cca2888b898d",
+        "case_name": "Dispute Case",
+        "case_type": "Internal Case",
+        "date_reported": "2023-09-23T03:00:47.295Z",
+        "status": "Under Review",
+        "description": "This case involves a dispute between parties",
+        "created_at": "2023-09-23T03:08:39.033Z",
+        "updated_at": "2023-09-23T09:27:34.460Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1d643557-2e12-47ec-ab90-4358c0cd6c0e",
+        "email": "Rhoda80@roq.tech",
+        "firstName": "Kariane",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "86f5ca9c-d92b-4f91-ac8f-1f0a536795b8",
+        "email": "Abraham_Lockman@roq.tech",
+        "firstName": "Afton",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86321854",
+        "tenantId": null
+      },
+      {
+        "reference": "2500bba1-b872-4912-babf-381d0d556782",
+        "email": "Myles.Bayer@roq.tech",
+        "firstName": "Ahmad",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13b553ee-90e8-4fe9-8c30-73bad258cc72",
+        "email": "Mandy_Gusikowski@roq.tech",
+        "firstName": "Jamil",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/333.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dec5376a-afe4-4855-96ee-8d35514fda2c",
+        "email": "Silas.Goldner@roq.tech",
+        "firstName": "Sylvester",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38621902",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "7706858d-a58e-4467-9a67-5bb72cfaa551",
+        "policy_name": "Privacy Policy",
+        "policy_type": "Data Privacy",
+        "effective_date": "2023-09-23T06:12:05.089Z",
+        "expiry_date": "2023-09-22T15:52:37.199Z",
+        "description": "This policy outlines how we collect and use your personal information",
+        "created_at": "2023-09-23T02:47:53.840Z",
+        "updated_at": "2023-09-22T17:35:33.937Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "537c9c6f-bfb1-496f-a1ab-146a8996fc64",
+        "policy_name": "Terms of Service",
+        "policy_type": "Legal",
+        "effective_date": "2023-09-23T04:23:53.548Z",
+        "expiry_date": "2023-09-22T13:02:54.143Z",
+        "description": "These are the terms and conditions for using our services",
+        "created_at": "2023-09-23T07:17:51.926Z",
+        "updated_at": "2023-09-23T12:23:48.973Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aad97444-18d1-40da-9027-8cea38d1626c",
+        "policy_name": "Refund Policy",
+        "policy_type": "Financial",
+        "effective_date": "2023-09-22T16:20:54.231Z",
+        "expiry_date": "2023-09-22T13:51:53.121Z",
+        "description": "Our refund policy for product returns and cancellations",
+        "created_at": "2023-09-23T06:23:45.673Z",
+        "updated_at": "2023-09-23T03:40:01.244Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0a8e4c6a-fb67-4390-a515-cbde0ecb8444",
+        "policy_name": "Cookie Policy",
+        "policy_type": "Website",
+        "effective_date": "2023-09-23T05:03:23.119Z",
+        "expiry_date": "2023-09-23T12:39:50.880Z",
+        "description": "Information about our use of cookies on our website",
+        "created_at": "2023-09-23T08:48:22.286Z",
+        "updated_at": "2023-09-23T08:01:20.935Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "984ebfc1-18b3-43b7-8539-5956080c3865",
+        "policy_name": "Security Policy",
+        "policy_type": "Information Security",
+        "effective_date": "2023-09-22T23:57:09.792Z",
+        "expiry_date": "2023-09-23T11:19:17.499Z",
+        "description": "How we ensure the security of your data",
+        "created_at": "2023-09-22T14:58:57.526Z",
+        "updated_at": "2023-09-23T03:52:11.873Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "303f609f-a84d-47e6-9a69-cdb810bb4b2f",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial",
+        "date_detected": "2023-09-23T04:10:39.881Z",
+        "status": "Active",
+        "description": "Cases of stolen identities and fraudulent financial transactions",
+        "created_at": "2023-09-23T12:40:50.101Z",
+        "updated_at": "2023-09-23T07:10:31.571Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "111ec74a-b784-4642-9a11-f354a2b81c81",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber",
+        "date_detected": "2023-09-22T12:49:40.353Z",
+        "status": "Pending",
+        "description": "Unauthorized use of credit card information for fraudulent purposes",
+        "created_at": "2023-09-23T02:48:30.340Z",
+        "updated_at": "2023-09-23T01:36:41.840Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bad5840-5e03-470f-837f-d02ffd0fb823",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance",
+        "date_detected": "2023-09-23T11:24:48.808Z",
+        "status": "Resolved",
+        "description": "Fraudulent insurance claims and policy manipulation",
+        "created_at": "2023-09-23T03:19:15.884Z",
+        "updated_at": "2023-09-22T18:19:53.994Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89b6c0b4-4c81-49ea-bcc2-b5f5234d1f46",
+        "fraud_name": "Online Scams",
+        "fraud_type": "Online",
+        "date_detected": "2023-09-23T10:25:17.257Z",
+        "status": "Investigating",
+        "description": "Scams and fraudulent activities conducted online",
+        "created_at": "2023-09-22T18:36:13.755Z",
+        "updated_at": "2023-09-22T22:42:11.463Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4234133-9e3f-4670-8fa4-d61e97d3761f",
+        "fraud_name": "Phishing",
+        "fraud_type": "Identity",
+        "date_detected": "2023-09-22T16:18:16.107Z",
+        "status": "Closed",
+        "description": "Attempts to deceive individuals into revealing sensitive information",
+        "created_at": "2023-09-23T07:25:02.256Z",
+        "updated_at": "2023-09-22T22:16:06.808Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "505a13f2-7111-4d39-8862-19c0983e6c63",
+        "compliance_name": "Data Protection",
+        "compliance_type": "Legal",
+        "date_implemented": "2023-09-22T17:27:41.099Z",
+        "status": "Compliant",
+        "description": "Ensuring compliance with data protection regulations",
+        "created_at": "2023-09-23T10:32:11.725Z",
+        "updated_at": "2023-09-22T20:29:26.845Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a8e002a3-85de-4383-874b-ffc535898d31",
+        "compliance_name": "Anti-Money Laundering",
+        "compliance_type": "Financial",
+        "date_implemented": "2023-09-23T09:57:50.223Z",
+        "status": "Non-Compliant",
+        "description": "Preventing money laundering and terrorist financing activities",
+        "created_at": "2023-09-23T02:45:06.056Z",
+        "updated_at": "2023-09-23T07:54:20.186Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "add647e1-abb7-4b42-8603-d305b7e752a5",
+        "compliance_name": "Health and Safety",
+        "compliance_type": "Safety",
+        "date_implemented": "2023-09-23T04:31:57.108Z",
+        "status": "Under Review",
+        "description": "Maintaining a safe and healthy work environment",
+        "created_at": "2023-09-22T18:19:36.114Z",
+        "updated_at": "2023-09-23T05:30:53.313Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3b918ee5-7407-4149-b1b0-491a5e24caf3",
+        "compliance_name": "Environmental",
+        "compliance_type": "Environmental",
+        "date_implemented": "2023-09-23T00:30:17.655Z",
+        "status": "Pending",
+        "description": "Adhering to environmental regulations and sustainability practices",
+        "created_at": "2023-09-23T05:37:05.854Z",
+        "updated_at": "2023-09-22T13:59:47.483Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "01b4f12f-b9dd-4d09-af3c-9c56b85a27ea",
+        "compliance_name": "Labor Laws",
+        "compliance_type": "Employment",
+        "date_implemented": "2023-09-23T12:22:48.524Z",
+        "status": "Approved",
+        "description": "Compliance with labor laws and employment regulations",
+        "created_at": "2023-09-23T08:56:56.870Z",
+        "updated_at": "2023-09-22T15:21:02.699Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "497e0724-4895-47b7-a70a-b91e3f3e2bf4",
+        "case_name": "Investigation Case",
+        "case_type": "Investigation",
+        "date_reported": "2023-09-23T06:20:55.472Z",
+        "status": "Open",
+        "description": "An ongoing investigation into a suspected crime",
+        "created_at": "2023-09-23T04:17:30.245Z",
+        "updated_at": "2023-09-22T17:18:02.340Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d6a20f0-9fa0-4678-a4d6-797a32cc8c94",
+        "case_name": "Legal Case",
+        "case_type": "Legal",
+        "date_reported": "2023-09-23T08:34:50.040Z",
+        "status": "Closed",
+        "description": "A legal case involving contractual disputes",
+        "created_at": "2023-09-22T23:42:19.137Z",
+        "updated_at": "2023-09-22T13:15:34.897Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebac90e6-5e64-47be-b8de-f1684807ff62",
+        "case_name": "Fraud Case",
+        "case_type": "Fraud",
+        "date_reported": "2023-09-23T03:58:00.713Z",
+        "status": "Ongoing",
+        "description": "A case of fraudulent activity requiring investigation",
+        "created_at": "2023-09-22T16:45:44.461Z",
+        "updated_at": "2023-09-22T22:57:14.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b49c8476-062d-4dcc-925c-9935e8c07cc8",
+        "case_name": "Compliance Case",
+        "case_type": "Compliance",
+        "date_reported": "2023-09-22T13:21:53.070Z",
+        "status": "Resolved",
+        "description": "A compliance case related to regulatory requirements",
+        "created_at": "2023-09-23T10:25:47.332Z",
+        "updated_at": "2023-09-23T04:45:01.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e95b1d8-a9f1-48f0-874e-4019077c0c1b",
+        "case_name": "Enforcement Case",
+        "case_type": "Enforcement",
+        "date_reported": "2023-09-23T04:13:55.885Z",
+        "status": "Pending",
+        "description": "An enforcement case involving violations of laws or regulations",
+        "created_at": "2023-09-23T04:43:41.667Z",
+        "updated_at": "2023-09-22T20:11:20.171Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a731db91-8d23-4c32-8ab7-c96cfd7160f5",
+        "email": "Griffin29@roq.tech",
+        "firstName": "Birdie",
+        "lastName": "Johns-Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26664563",
+        "tenantId": null
+      },
+      {
+        "reference": "e8e9c14a-c3b7-498d-b581-fb99ab51c649",
+        "email": "Tressa_DuBuque72@roq.tech",
+        "firstName": "Braeden",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76015510",
+        "tenantId": null
+      },
+      {
+        "reference": "7e561861-996e-4874-8f93-59d11642972a",
+        "email": "Corine55@roq.tech",
+        "firstName": "Berry",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23282078",
+        "tenantId": null
+      },
+      {
+        "reference": "89deebff-bf80-4d0d-9aa5-3969aceb93ea",
+        "email": "Rudy_Ratke78@roq.tech",
+        "firstName": "Jed",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/913.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c763f715-e15b-4907-bdd2-6d0e8fc1261e",
+        "email": "Milton_Keeling72@roq.tech",
+        "firstName": "Irving",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1041.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "944d40dc-f332-481f-b200-69cbefd3f458",
+        "policy_name": "Privacy Policy",
+        "policy_type": "Legal",
+        "effective_date": "2023-09-23T08:57:46.576Z",
+        "expiry_date": "2023-09-22T21:29:10.478Z",
+        "description": "This policy outlines how we handle user data.",
+        "created_at": "2023-09-22T16:28:14.807Z",
+        "updated_at": "2023-09-23T12:43:34.893Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "226d8bc9-68f6-4230-930d-145b06c95828",
+        "policy_name": "Terms of Service",
+        "policy_type": "Compliance",
+        "effective_date": "2023-09-23T02:55:31.799Z",
+        "expiry_date": "2023-09-23T02:38:32.181Z",
+        "description": "These are the terms and conditions for using our services.",
+        "created_at": "2023-09-23T02:14:14.719Z",
+        "updated_at": "2023-09-22T22:45:46.013Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2d7d9913-7b99-4e27-8b84-25bfc6d8805d",
+        "policy_name": "Security Policy",
+        "policy_type": "Security",
+        "effective_date": "2023-09-22T17:33:31.639Z",
+        "expiry_date": "2023-09-22T15:56:31.760Z",
+        "description": "We prioritize the security of our systems and data.",
+        "created_at": "2023-09-22T18:04:26.201Z",
+        "updated_at": "2023-09-23T08:38:38.875Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "45b9cece-1b96-40cb-a0ad-c0412b37058e",
+        "policy_name": "Data Protection Policy",
+        "policy_type": "Data Protection",
+        "effective_date": "2023-09-23T11:46:02.820Z",
+        "expiry_date": "2023-09-23T10:45:24.749Z",
+        "description": "This policy ensures the protection of personal information.",
+        "created_at": "2023-09-22T16:51:39.595Z",
+        "updated_at": "2023-09-22T18:50:33.114Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d5dd6fa8-8b9b-47c4-9195-a1deb540e9c4",
+        "policy_name": "Cookie Policy",
+        "policy_type": "Privacy",
+        "effective_date": "2023-09-23T12:04:24.654Z",
+        "expiry_date": "2023-09-23T07:08:58.198Z",
+        "description": "Our cookie policy explains how we use cookies on our website.",
+        "created_at": "2023-09-23T10:40:05.263Z",
+        "updated_at": "2023-09-22T21:27:38.173Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "69185dcc-cac1-4dce-8dc7-ae4e43e791c2",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial",
+        "date_detected": "2023-09-23T06:31:20.088Z",
+        "status": "Active",
+        "description": "Identity theft involves stealing someone's personal information.",
+        "created_at": "2023-09-23T09:03:03.641Z",
+        "updated_at": "2023-09-22T18:18:52.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bbf72b7-9c18-483a-a081-daad52614bac",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber",
+        "date_detected": "2023-09-23T06:40:29.855Z",
+        "status": "Investigating",
+        "description": "Credit card fraud is the unauthorized use of someone's credit card.",
+        "created_at": "2023-09-23T11:26:59.548Z",
+        "updated_at": "2023-09-23T08:29:09.690Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9a95213-b0a8-4a02-ab8b-ba52c1dc76c5",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance",
+        "date_detected": "2023-09-22T21:10:00.409Z",
+        "status": "Resolved",
+        "description": "Insurance fraud refers to false claims made to obtain insurance benefits.",
+        "created_at": "2023-09-23T00:49:27.092Z",
+        "updated_at": "2023-09-23T08:01:13.612Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc50c156-5206-40d1-bb9e-8de562d0132e",
+        "fraud_name": "Online Scams",
+        "fraud_type": "Online",
+        "date_detected": "2023-09-23T06:34:30.791Z",
+        "status": "Closed",
+        "description": "Online scams are fraudulent schemes conducted on the internet.",
+        "created_at": "2023-09-22T18:33:32.292Z",
+        "updated_at": "2023-09-23T10:16:40.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77d71d40-e918-4ad1-9c66-bebc680f32ef",
+        "fraud_name": "Phishing",
+        "fraud_type": "Identity",
+        "date_detected": "2023-09-22T19:23:12.009Z",
+        "status": "Under Review",
+        "description": "Phishing is a method used to trick individuals into revealing sensitive information.",
+        "created_at": "2023-09-22T13:35:37.401Z",
+        "updated_at": "2023-09-23T04:00:58.556Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "5be4e510-b8d2-45ac-8b86-74df15c15735",
+        "compliance_name": "GDPR Compliance",
+        "compliance_type": "Data Protection",
+        "date_implemented": "2023-09-23T01:04:13.880Z",
+        "status": "Compliant",
+        "description": "GDPR compliance ensures the protection of personal data.",
+        "created_at": "2023-09-23T02:01:51.823Z",
+        "updated_at": "2023-09-22T17:46:09.230Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "18dc7cbe-0d4b-4dd0-b8e5-045bbe991563",
+        "compliance_name": "HIPAA Compliance",
+        "compliance_type": "Healthcare",
+        "date_implemented": "2023-09-23T03:36:34.606Z",
+        "status": "Non-Compliant",
+        "description": "HIPAA compliance is required for handling healthcare information.",
+        "created_at": "2023-09-23T04:36:48.765Z",
+        "updated_at": "2023-09-22T23:23:07.616Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a83f0370-7bba-48b3-a41f-8885b63e7a83",
+        "compliance_name": "PCI DSS Compliance",
+        "compliance_type": "Payment Card",
+        "date_implemented": "2023-09-23T02:01:32.096Z",
+        "status": "In Progress",
+        "description": "PCI DSS compliance is necessary for secure payment card processing.",
+        "created_at": "2023-09-23T03:20:43.939Z",
+        "updated_at": "2023-09-23T11:14:15.820Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f1f5c7f-22ba-497a-b89a-cc979b097782",
+        "compliance_name": "ISO 27001 Compliance",
+        "compliance_type": "Information Security",
+        "date_implemented": "2023-09-23T08:59:24.127Z",
+        "status": "Under Review",
+        "description": "ISO 27001 compliance focuses on information security management.",
+        "created_at": "2023-09-22T22:40:44.774Z",
+        "updated_at": "2023-09-22T14:58:43.231Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8d7d8fc7-4017-4f6a-b1d6-0ebf34c5afb6",
+        "compliance_name": "SOC 2 Compliance",
+        "compliance_type": "Cloud Computing",
+        "date_implemented": "2023-09-23T00:50:07.841Z",
+        "status": "Certified",
+        "description": "SOC 2 compliance verifies the security, availability, and processing integrity of cloud-based systems.",
+        "created_at": "2023-09-22T19:32:08.810Z",
+        "updated_at": "2023-09-23T01:12:30.117Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "b7f3fff7-2854-498d-a5ac-a2c212be6486",
+        "case_name": "Investigation Case",
+        "case_type": "Criminal",
+        "date_reported": "2023-09-23T10:45:37.983Z",
+        "status": "Open",
+        "description": "This case involves the investigation of a suspected crime.",
+        "created_at": "2023-09-23T10:50:08.169Z",
+        "updated_at": "2023-09-23T11:58:02.708Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cfd05aa-5523-4fbd-a7b3-c9a345e95201",
+        "case_name": "Legal Case",
+        "case_type": "Civil",
+        "date_reported": "2023-09-22T16:08:23.491Z",
+        "status": "Closed",
+        "description": "This case involves a legal dispute between parties.",
+        "created_at": "2023-09-23T12:23:41.544Z",
+        "updated_at": "2023-09-22T23:52:20.072Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a9b7f80-912f-4f39-9ba7-57090c8729db",
+        "case_name": "Fraud Case",
+        "case_type": "Financial",
+        "date_reported": "2023-09-22T19:06:02.023Z",
+        "status": "Pending",
+        "description": "This case involves fraudulent activities.",
+        "created_at": "2023-09-22T18:18:08.187Z",
+        "updated_at": "2023-09-22T16:38:31.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fba9996-6b26-420e-bb3c-dfae11b344fa",
+        "case_name": "Compliance Case",
+        "case_type": "Regulatory",
+        "date_reported": "2023-09-23T12:23:44.790Z",
+        "status": "Under Review",
+        "description": "This case involves compliance violations.",
+        "created_at": "2023-09-23T05:58:25.164Z",
+        "updated_at": "2023-09-22T13:28:07.466Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "988d160a-e832-4973-8ed9-162351754c1e",
+        "case_name": "Enforcement Case",
+        "case_type": "Enforcement",
+        "date_reported": "2023-09-23T08:35:54.802Z",
+        "status": "Resolved",
+        "description": "This case involves enforcement actions.",
+        "created_at": "2023-09-23T05:57:40.397Z",
+        "updated_at": "2023-09-22T22:22:00.221Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eb72fb50-299f-49e2-96c3-594acbc99ea7",
+        "email": "Amalia.Sawayn@roq.tech",
+        "firstName": "Jacky",
+        "lastName": "Bashirian-Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74415297",
+        "tenantId": null
+      },
+      {
+        "reference": "a631bbb9-c315-4fb6-abc1-c6690bb84798",
+        "email": "Royal_Daniel36@roq.tech",
+        "firstName": "Jerel",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/664.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7fbcd6d-1e2c-4040-9388-bc11bd2bcca7",
+        "email": "Arnoldo66@roq.tech",
+        "firstName": "Lelia",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88840253",
+        "tenantId": null
+      },
+      {
+        "reference": "3140c0a1-ed61-47fd-9f54-660f02bbfce9",
+        "email": "Lesley36@roq.tech",
+        "firstName": "Tessie",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15693227",
+        "tenantId": null
+      },
+      {
+        "reference": "20c2a6c3-a523-47ee-a9f8-da46776932d2",
+        "email": "Carley.Orn94@roq.tech",
+        "firstName": "Addison",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18701747",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "5ef1f5c8-e5b7-445f-934f-dfd351e22bcb",
+        "policy_name": "Data Privacy Policy",
+        "policy_type": "Internal",
+        "effective_date": "2023-09-23T02:06:13.841Z",
+        "expiry_date": "2023-09-22T23:02:36.578Z",
+        "description": "This policy outlines the company's commitment to protecting customer data.",
+        "created_at": "2023-09-22T23:22:44.335Z",
+        "updated_at": "2023-09-22T14:22:25.670Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "45a6e220-bfdd-4bd5-94a6-2ca4c03529fa",
+        "policy_name": "Security Policy",
+        "policy_type": "External",
+        "effective_date": "2023-09-23T08:54:57.815Z",
+        "expiry_date": "2023-09-22T14:29:19.705Z",
+        "description": "This policy defines the security measures to be followed by all employees.",
+        "created_at": "2023-09-22T23:57:25.920Z",
+        "updated_at": "2023-09-23T11:45:53.208Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "57597e0e-dd8b-41ad-b9d7-c24ca2d9d395",
+        "policy_name": "Code of Conduct",
+        "policy_type": "Regulatory",
+        "effective_date": "2023-09-22T23:37:18.709Z",
+        "expiry_date": "2023-09-23T05:36:34.799Z",
+        "description": "This policy sets the standards of behavior for all employees.",
+        "created_at": "2023-09-22T23:30:02.918Z",
+        "updated_at": "2023-09-23T01:46:24.079Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e38cd4c3-97f7-48c3-b442-c6ce8617660a",
+        "policy_name": "Employee Benefits Policy",
+        "policy_type": "Compliance",
+        "effective_date": "2023-09-23T02:41:34.286Z",
+        "expiry_date": "2023-09-22T17:09:13.283Z",
+        "description": "This policy outlines the benefits provided to employees.",
+        "created_at": "2023-09-22T13:40:04.684Z",
+        "updated_at": "2023-09-23T04:17:41.108Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7542f520-3e21-49f8-afd8-abe048c42baf",
+        "policy_name": "Environmental Policy",
+        "policy_type": "Ethics",
+        "effective_date": "2023-09-23T09:59:03.596Z",
+        "expiry_date": "2023-09-22T22:34:50.436Z",
+        "description": "This policy outlines the company's commitment to environmental sustainability.",
+        "created_at": "2023-09-23T05:01:26.109Z",
+        "updated_at": "2023-09-23T02:17:35.305Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "c39ade6b-d2db-4822-a8ee-131379652ab8",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial",
+        "date_detected": "2023-09-23T01:53:34.988Z",
+        "status": "Open",
+        "description": "This fraud involves stealing someone's personal information for financial gain.",
+        "created_at": "2023-09-23T03:23:12.769Z",
+        "updated_at": "2023-09-22T18:56:20.958Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee53a30d-03fc-45b9-99bc-5cd1c3ebd75c",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance",
+        "date_detected": "2023-09-22T19:58:56.426Z",
+        "status": "Closed",
+        "description": "This fraud involves making false insurance claims for monetary benefits.",
+        "created_at": "2023-09-22T16:44:15.343Z",
+        "updated_at": "2023-09-22T22:12:45.047Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2685aac5-b9f2-4290-8930-00dc4a6da589",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber",
+        "date_detected": "2023-09-23T08:10:46.403Z",
+        "status": "Under Investigation",
+        "description": "This fraud involves unauthorized use of credit card information.",
+        "created_at": "2023-09-23T11:39:26.046Z",
+        "updated_at": "2023-09-23T00:22:25.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52f7fcf6-9cb5-4e0e-bc8b-4760e7615628",
+        "fraud_name": "Online Scams",
+        "fraud_type": "Consumer",
+        "date_detected": "2023-09-23T06:03:32.736Z",
+        "status": "Resolved",
+        "description": "This fraud involves deceiving individuals online to obtain money or personal information.",
+        "created_at": "2023-09-23T12:27:11.924Z",
+        "updated_at": "2023-09-23T10:36:48.656Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a367232a-1f73-4272-85ff-1c2fbce70aa4",
+        "fraud_name": "Money Laundering",
+        "fraud_type": "Corporate",
+        "date_detected": "2023-09-23T05:04:36.424Z",
+        "status": "Pending",
+        "description": "This fraud involves disguising the origins of illegally obtained money.",
+        "created_at": "2023-09-22T17:41:36.261Z",
+        "updated_at": "2023-09-22T21:33:08.157Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "31da056c-d914-4d1c-94a1-a1156f01b193",
+        "compliance_name": "Anti-Money Laundering",
+        "compliance_type": "Legal",
+        "date_implemented": "2023-09-22T20:45:47.216Z",
+        "status": "Compliant",
+        "description": "This compliance ensures that the company follows regulations to prevent money laundering.",
+        "created_at": "2023-09-22T19:28:05.929Z",
+        "updated_at": "2023-09-23T12:09:16.947Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ed74a50f-4ea3-4b0b-ad88-54332629e89e",
+        "compliance_name": "Data Protection",
+        "compliance_type": "Regulatory",
+        "date_implemented": "2023-09-23T03:20:23.539Z",
+        "status": "Non-Compliant",
+        "description": "This compliance ensures the protection of personal data in accordance with privacy laws.",
+        "created_at": "2023-09-22T23:07:41.447Z",
+        "updated_at": "2023-09-23T04:03:58.934Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c9616b67-d614-4298-920c-cf6832c34130",
+        "compliance_name": "Health and Safety",
+        "compliance_type": "Industry",
+        "date_implemented": "2023-09-23T11:21:10.724Z",
+        "status": "In Progress",
+        "description": "This compliance ensures a safe and healthy work environment for employees.",
+        "created_at": "2023-09-23T03:23:09.889Z",
+        "updated_at": "2023-09-22T22:27:03.839Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "919a9999-3247-42cf-b983-2490064221cf",
+        "compliance_name": "Ethics and Integrity",
+        "compliance_type": "Internal",
+        "date_implemented": "2023-09-22T21:56:41.566Z",
+        "status": "Under Review",
+        "description": "This compliance promotes ethical behavior and integrity within the organization.",
+        "created_at": "2023-09-23T10:31:23.961Z",
+        "updated_at": "2023-09-22T15:14:22.513Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9874c97e-7443-43cb-883b-14fdf21b8f33",
+        "compliance_name": "Financial Reporting",
+        "compliance_type": "International",
+        "date_implemented": "2023-09-23T10:19:05.145Z",
+        "status": "Pending",
+        "description": "This compliance ensures accurate and transparent financial reporting.",
+        "created_at": "2023-09-22T18:29:26.403Z",
+        "updated_at": "2023-09-23T11:33:42.574Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "4cb7e814-3154-487d-8172-674eac749501",
+        "case_name": "Contract Dispute",
+        "case_type": "Civil",
+        "date_reported": "2023-09-23T08:18:13.017Z",
+        "status": "Open",
+        "description": "This case involves a dispute over a contract between two parties.",
+        "created_at": "2023-09-23T02:49:10.029Z",
+        "updated_at": "2023-09-23T08:02:28.311Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20d1b99f-c502-419d-9d21-05d958bcc755",
+        "case_name": "Trademark Infringement",
+        "case_type": "Criminal",
+        "date_reported": "2023-09-22T12:50:25.448Z",
+        "status": "Closed",
+        "description": "This case involves the unauthorized use of a trademark.",
+        "created_at": "2023-09-23T01:53:03.241Z",
+        "updated_at": "2023-09-23T04:23:26.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0752a4bd-8185-4a53-9cbf-7e9eda7f15a3",
+        "case_name": "Employment Discrimination",
+        "case_type": "Employment",
+        "date_reported": "2023-09-23T02:49:05.069Z",
+        "status": "Settled",
+        "description": "This case involves allegations of discrimination in the workplace.",
+        "created_at": "2023-09-22T14:27:31.451Z",
+        "updated_at": "2023-09-22T17:35:30.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3e2f8ce-1fa8-4f75-ac95-ccd6745b0755",
+        "case_name": "Product Liability",
+        "case_type": "Commercial",
+        "date_reported": "2023-09-22T18:37:51.630Z",
+        "status": "Ongoing",
+        "description": "This case involves liability for a defective product.",
+        "created_at": "2023-09-23T09:21:46.022Z",
+        "updated_at": "2023-09-22T16:56:20.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "747c9c33-f2fb-4aeb-89a3-c39f9f7fd165",
+        "case_name": "Intellectual Property Theft",
+        "case_type": "Intellectual Property",
+        "date_reported": "2023-09-23T10:46:59.015Z",
+        "status": "Pending",
+        "description": "This case involves the theft of intellectual property.",
+        "created_at": "2023-09-22T19:21:49.059Z",
+        "updated_at": "2023-09-23T12:18:54.536Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b472a5bb-4c72-4d29-be5a-9ef6f41d6488",
+        "email": "Dora.Jast@roq.tech",
+        "firstName": "Humberto",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/98.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1a8f467-dfa3-4952-a75c-9aa23834d6fa",
+        "email": "Zella.Koch83@roq.tech",
+        "firstName": "Allison",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1021.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5044bf5d-d5dc-4875-aa21-175297c2bfe4",
+        "email": "August65@roq.tech",
+        "firstName": "Tyrell",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73801827",
+        "tenantId": null
+      },
+      {
+        "reference": "4b13ae77-ddc8-401e-ba74-e902a7cea837",
+        "email": "Jerel_Smith78@roq.tech",
+        "firstName": "Micaela",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/629.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d372d0c8-c902-405c-914b-af531fbe612d",
+        "email": "Julian_Kris38@roq.tech",
+        "firstName": "Dessie",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67417746",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "ce413005-ec9d-4326-b460-963448857f92",
+        "policy_name": "Privacy Policy",
+        "policy_type": "Legal",
+        "effective_date": "2023-09-22T21:50:58.331Z",
+        "expiry_date": "2023-09-22T21:46:20.192Z",
+        "description": "This policy outlines our commitment to protecting your privacy.",
+        "created_at": "2023-09-22T20:55:48.783Z",
+        "updated_at": "2023-09-23T02:45:11.436Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b460c4ab-7baf-4418-8cb4-53ffc8d1f086",
+        "policy_name": "Terms of Service",
+        "policy_type": "Agreement",
+        "effective_date": "2023-09-22T19:34:54.885Z",
+        "expiry_date": "2023-09-23T12:41:56.796Z",
+        "description": "These terms govern your use of our services.",
+        "created_at": "2023-09-22T14:05:40.730Z",
+        "updated_at": "2023-09-22T17:44:03.816Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "381fc029-7f0b-4221-9902-4b644b2ac170",
+        "policy_name": "Refund Policy",
+        "policy_type": "Terms",
+        "effective_date": "2023-09-23T08:44:12.590Z",
+        "expiry_date": "2023-09-22T19:26:46.583Z",
+        "description": "Our refund policy provides information on how to request a refund.",
+        "created_at": "2023-09-22T15:45:45.279Z",
+        "updated_at": "2023-09-22T17:38:26.856Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bb8de5cf-f920-4f25-8285-d2a8e687a4fd",
+        "policy_name": "Shipping Policy",
+        "policy_type": "Guidelines",
+        "effective_date": "2023-09-23T12:11:37.178Z",
+        "expiry_date": "2023-09-23T05:06:41.192Z",
+        "description": "This policy explains our shipping procedures.",
+        "created_at": "2023-09-23T07:34:04.294Z",
+        "updated_at": "2023-09-22T19:51:17.227Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0fbe397a-9c83-448b-9fca-7da94ecd6d65",
+        "policy_name": "Cancellation Policy",
+        "policy_type": "Regulations",
+        "effective_date": "2023-09-22T16:57:09.648Z",
+        "expiry_date": "2023-09-22T13:05:49.578Z",
+        "description": "You can find information on how to cancel your order in this policy.",
+        "created_at": "2023-09-23T09:22:12.186Z",
+        "updated_at": "2023-09-23T04:11:32.727Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "4a221f34-0973-47df-9d53-5a6a5b5470f6",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial",
+        "date_detected": "2023-09-22T20:24:53.640Z",
+        "status": "Active",
+        "description": "This fraud involves stealing personal information for financial gain.",
+        "created_at": "2023-09-23T08:36:36.156Z",
+        "updated_at": "2023-09-23T03:49:33.726Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87e4ec1e-ca52-460a-b590-008301bab5d5",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber",
+        "date_detected": "2023-09-22T21:04:28.942Z",
+        "status": "Investigating",
+        "description": "This type of fraud involves unauthorized use of credit card information.",
+        "created_at": "2023-09-22T21:18:02.038Z",
+        "updated_at": "2023-09-22T23:56:36.450Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2387df85-c37f-47d7-a39f-bf46a65f3e85",
+        "fraud_name": "Phishing Scam",
+        "fraud_type": "Insurance",
+        "date_detected": "2023-09-23T01:06:03.059Z",
+        "status": "Resolved",
+        "description": "Phishing scams attempt to trick individuals into revealing sensitive information.",
+        "created_at": "2023-09-22T22:17:51.004Z",
+        "updated_at": "2023-09-23T08:31:12.683Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f9e1396-6752-4d23-b14e-04dcd9eb9035",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Online",
+        "date_detected": "2023-09-23T08:16:04.915Z",
+        "status": "Closed",
+        "description": "Insurance fraud involves making false claims for financial gain.",
+        "created_at": "2023-09-23T03:24:46.607Z",
+        "updated_at": "2023-09-23T00:15:30.622Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "360fcb6a-dd05-4bff-bb2f-6326934ca027",
+        "fraud_name": "Online Fraud",
+        "fraud_type": "Identity",
+        "date_detected": "2023-09-22T17:55:08.172Z",
+        "status": "Under Review",
+        "description": "Online fraud refers to fraudulent activities conducted over the internet.",
+        "created_at": "2023-09-22T17:29:31.425Z",
+        "updated_at": "2023-09-23T05:52:52.838Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "ad51db0f-49c4-4953-8818-f08d49f62c48",
+        "compliance_name": "Anti-Money Laundering",
+        "compliance_type": "Legal",
+        "date_implemented": "2023-09-23T12:24:28.482Z",
+        "status": "Compliant",
+        "description": "Anti-Money Laundering compliance ensures that financial institutions prevent money laundering activities.",
+        "created_at": "2023-09-22T19:28:20.499Z",
+        "updated_at": "2023-09-22T16:34:46.062Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ad33590f-0867-4cc5-9527-4ea313c2fcbd",
+        "compliance_name": "Data Protection",
+        "compliance_type": "Regulatory",
+        "date_implemented": "2023-09-22T23:09:05.242Z",
+        "status": "Non-Compliant",
+        "description": "Data Protection compliance involves safeguarding personal data and ensuring privacy.",
+        "created_at": "2023-09-22T17:18:36.120Z",
+        "updated_at": "2023-09-23T00:58:28.142Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1d5fe2c7-4f55-4b71-986d-21a35c964cfb",
+        "compliance_name": "Health and Safety",
+        "compliance_type": "Industry",
+        "date_implemented": "2023-09-22T20:30:39.275Z",
+        "status": "Under Review",
+        "description": "Health and Safety compliance ensures a safe working environment for employees.",
+        "created_at": "2023-09-22T23:28:18.735Z",
+        "updated_at": "2023-09-22T14:11:13.552Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6de8937a-5e65-4421-ae93-084bbfadfb03",
+        "compliance_name": "Environmental",
+        "compliance_type": "Internal",
+        "date_implemented": "2023-09-23T00:20:01.616Z",
+        "status": "Pending",
+        "description": "Environmental compliance involves adhering to regulations for environmental protection.",
+        "created_at": "2023-09-22T18:01:13.152Z",
+        "updated_at": "2023-09-22T17:18:27.748Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1fdb1a64-2835-4ab8-9b6e-bf71584b3aef",
+        "compliance_name": "Labor Laws",
+        "compliance_type": "Ethical",
+        "date_implemented": "2023-09-23T01:32:15.693Z",
+        "status": "Approved",
+        "description": "Labor Laws compliance ensures fair treatment of employees and adherence to labor regulations.",
+        "created_at": "2023-09-23T10:09:23.571Z",
+        "updated_at": "2023-09-22T20:45:35.525Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "209a1329-e9ed-4ea9-bf39-08bea89851b1",
+        "case_name": "Contract Dispute",
+        "case_type": "Civil",
+        "date_reported": "2023-09-22T20:16:31.829Z",
+        "status": "Open",
+        "description": "This case involves a dispute over a contract between two parties.",
+        "created_at": "2023-09-22T14:17:40.365Z",
+        "updated_at": "2023-09-22T21:52:32.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb045e26-aa2d-4b81-904e-55fcb7b5904a",
+        "case_name": "Trademark Infringement",
+        "case_type": "Criminal",
+        "date_reported": "2023-09-23T12:28:56.554Z",
+        "status": "Closed",
+        "description": "Trademark infringement case involves unauthorized use of a registered trademark.",
+        "created_at": "2023-09-22T18:23:06.947Z",
+        "updated_at": "2023-09-23T10:08:49.850Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04c6b58b-72eb-4b3e-bc0a-7dbf75c1eae6",
+        "case_name": "Employment Discrimination",
+        "case_type": "Employment",
+        "date_reported": "2023-09-22T16:13:53.777Z",
+        "status": "Settled",
+        "description": "Employment discrimination case involves unfair treatment of an employee based on protected characteristics.",
+        "created_at": "2023-09-22T14:39:36.307Z",
+        "updated_at": "2023-09-23T04:01:34.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "773842e7-4c5d-4503-8208-ae40dacf4c0a",
+        "case_name": "Product Liability",
+        "case_type": "Commercial",
+        "date_reported": "2023-09-22T14:42:16.027Z",
+        "status": "Ongoing",
+        "description": "Product liability case involves holding a manufacturer liable for defective products.",
+        "created_at": "2023-09-22T19:16:48.928Z",
+        "updated_at": "2023-09-23T04:31:13.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "977d6300-2caf-4e4a-a4d8-5294f48e68f9",
+        "case_name": "Intellectual Property Theft",
+        "case_type": "Intellectual Property",
+        "date_reported": "2023-09-22T12:56:59.678Z",
+        "status": "Appealed",
+        "description": "Intellectual property theft case involves unauthorized use or theft of intellectual property.",
+        "created_at": "2023-09-22T16:28:34.773Z",
+        "updated_at": "2023-09-22T20:06:19.871Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "83a8cc5b-5174-43c4-abad-db7ba65731f2",
+        "email": "Abigail83@roq.tech",
+        "firstName": "Loyal",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6181505",
+        "tenantId": null
+      },
+      {
+        "reference": "ab0bf142-a9c5-470c-82d1-862c7efa750a",
+        "email": "Buddy.Schiller@roq.tech",
+        "firstName": "Madelyn",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/458.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "202e19a8-7c38-4088-8426-b847b4be80ea",
+        "email": "Delbert.Mayert47@roq.tech",
+        "firstName": "Melany",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87318799",
+        "tenantId": null
+      },
+      {
+        "reference": "ee049a83-580d-474d-b724-2480008f7ab5",
+        "email": "Everette.Hermann74@roq.tech",
+        "firstName": "Dillan",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/365.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b22bc9c2-3382-4fc0-afd0-4a4a307ab00e",
+        "email": "Emelie_Connelly@roq.tech",
+        "firstName": "Eleazar",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "03821ffe-3010-4059-b8c3-18529626d5f7",
+        "policy_name": "Data Protection Policy",
+        "policy_type": "Internal",
+        "effective_date": "2023-09-22T16:26:42.814Z",
+        "expiry_date": "2023-09-22T16:47:52.051Z",
+        "description": "This policy outlines the procedures for protecting sensitive data",
+        "created_at": "2023-09-23T08:02:30.340Z",
+        "updated_at": "2023-09-22T22:48:17.418Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a5463295-0481-4cb9-ab74-b1a734be1137",
+        "policy_name": "Code of Conduct",
+        "policy_type": "External",
+        "effective_date": "2023-09-23T07:33:21.933Z",
+        "expiry_date": "2023-09-22T20:40:32.611Z",
+        "description": "This policy sets the standards of behavior for all employees",
+        "created_at": "2023-09-23T04:08:44.436Z",
+        "updated_at": "2023-09-23T01:57:06.361Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "56829d4f-653d-41b0-ba78-2b655fb225d1",
+        "policy_name": "Employee Benefits Policy",
+        "policy_type": "Legal",
+        "effective_date": "2023-09-23T05:55:37.825Z",
+        "expiry_date": "2023-09-22T14:38:51.747Z",
+        "description": "This policy explains the benefits available to employees",
+        "created_at": "2023-09-23T11:53:30.497Z",
+        "updated_at": "2023-09-22T20:21:56.230Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "90e1dff5-97d7-48c7-800d-75e20276c029",
+        "policy_name": "Health and Safety Policy",
+        "policy_type": "Ethical",
+        "effective_date": "2023-09-22T20:29:25.270Z",
+        "expiry_date": "2023-09-23T12:23:41.138Z",
+        "description": "This policy ensures a safe working environment for all employees",
+        "created_at": "2023-09-22T18:39:48.207Z",
+        "updated_at": "2023-09-22T16:45:59.607Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a5a4b073-3c1d-4f67-bcf6-9c0ceaa17597",
+        "policy_name": "Environmental Sustainability Policy",
+        "policy_type": "Financial",
+        "effective_date": "2023-09-22T22:42:20.253Z",
+        "expiry_date": "2023-09-23T10:59:48.220Z",
+        "description": "This policy promotes environmental responsibility within the organization",
+        "created_at": "2023-09-23T02:00:34.965Z",
+        "updated_at": "2023-09-22T14:58:35.211Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "edca488b-900f-4632-bf59-d978da76f2dd",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial",
+        "date_detected": "2023-09-23T11:31:36.267Z",
+        "status": "Active",
+        "description": "This fraud involves stealing personal information for illegal purposes",
+        "created_at": "2023-09-23T10:39:27.409Z",
+        "updated_at": "2023-09-22T15:24:50.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3aed0ce4-2fcb-4a63-8f0c-8b91abcf0d3f",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance",
+        "date_detected": "2023-09-22T17:41:24.060Z",
+        "status": "Pending",
+        "description": "This fraud involves making false insurance claims for financial gain",
+        "created_at": "2023-09-22T17:14:24.645Z",
+        "updated_at": "2023-09-23T10:42:35.643Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "965d29d8-ebd0-4699-b966-ca5c175ac1aa",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber",
+        "date_detected": "2023-09-22T20:59:22.918Z",
+        "status": "Resolved",
+        "description": "This fraud involves unauthorized use of credit card information",
+        "created_at": "2023-09-23T11:01:05.635Z",
+        "updated_at": "2023-09-22T16:55:24.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9aa5e35-5ae3-433e-b4d9-ef6e93bb0761",
+        "fraud_name": "Online Scams",
+        "fraud_type": "Consumer",
+        "date_detected": "2023-09-22T18:20:11.935Z",
+        "status": "Under Investigation",
+        "description": "This fraud involves deceiving individuals through online platforms",
+        "created_at": "2023-09-23T00:53:18.826Z",
+        "updated_at": "2023-09-22T17:33:26.013Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e78a5b97-74c8-46fe-ab01-4b0335f6d61b",
+        "fraud_name": "Money Laundering",
+        "fraud_type": "Corporate",
+        "date_detected": "2023-09-23T04:51:48.901Z",
+        "status": "Closed",
+        "description": "This fraud involves disguising the origins of illegally obtained money",
+        "created_at": "2023-09-22T14:59:20.861Z",
+        "updated_at": "2023-09-23T02:29:57.678Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "189f574e-bc51-4568-8c5f-1921e3de7e73",
+        "compliance_name": "Data Privacy Compliance",
+        "compliance_type": "Legal",
+        "date_implemented": "2023-09-22T20:58:10.971Z",
+        "status": "Compliant",
+        "description": "This compliance ensures the protection of personal data in accordance with regulations",
+        "created_at": "2023-09-22T20:43:56.907Z",
+        "updated_at": "2023-09-23T00:47:08.733Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "be257ba7-43ab-48c9-9f4f-d5bfb990093b",
+        "compliance_name": "Anti-Money Laundering Compliance",
+        "compliance_type": "Regulatory",
+        "date_implemented": "2023-09-23T07:34:33.354Z",
+        "status": "Non-compliant",
+        "description": "This compliance prevents the use of financial systems for illegal activities",
+        "created_at": "2023-09-22T17:27:52.209Z",
+        "updated_at": "2023-09-23T02:42:18.075Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf182d54-956b-4901-b444-a1213d447762",
+        "compliance_name": "Healthcare Compliance",
+        "compliance_type": "Industry-specific",
+        "date_implemented": "2023-09-23T09:42:56.838Z",
+        "status": "In Progress",
+        "description": "This compliance ensures adherence to healthcare regulations and standards",
+        "created_at": "2023-09-23T00:52:38.213Z",
+        "updated_at": "2023-09-23T11:58:36.141Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f3895554-d6a1-4f8b-8203-541d9b374cd8",
+        "compliance_name": "Environmental Compliance",
+        "compliance_type": "Ethical",
+        "date_implemented": "2023-09-23T12:25:49.790Z",
+        "status": "Under Review",
+        "description": "This compliance promotes environmental responsibility and sustainability",
+        "created_at": "2023-09-23T00:22:50.528Z",
+        "updated_at": "2023-09-22T15:37:03.233Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c702b207-f99e-4297-bb59-291a75eaef8f",
+        "compliance_name": "Labor Law Compliance",
+        "compliance_type": "Financial",
+        "date_implemented": "2023-09-22T17:26:36.146Z",
+        "status": "Expired",
+        "description": "This compliance ensures compliance with labor laws and regulations",
+        "created_at": "2023-09-23T06:11:07.683Z",
+        "updated_at": "2023-09-22T13:53:06.557Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "dbe088f7-23ea-46a9-9f19-03043c0dc520",
+        "case_name": "Contract Dispute",
+        "case_type": "Civil",
+        "date_reported": "2023-09-23T11:02:15.014Z",
+        "status": "Open",
+        "description": "This case involves a dispute over a contractual agreement",
+        "created_at": "2023-09-23T06:12:05.047Z",
+        "updated_at": "2023-09-23T02:54:04.518Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3543498-a68a-442a-b28b-27d1ce555cf9",
+        "case_name": "Trademark Infringement",
+        "case_type": "Criminal",
+        "date_reported": "2023-09-22T17:25:59.121Z",
+        "status": "Closed",
+        "description": "This case involves the unauthorized use of a trademark",
+        "created_at": "2023-09-22T19:44:25.223Z",
+        "updated_at": "2023-09-23T12:06:10.081Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72caa790-1949-4da8-9d91-6797fb6f467e",
+        "case_name": "Employee Misconduct",
+        "case_type": "Employment",
+        "date_reported": "2023-09-22T21:08:29.687Z",
+        "status": "Ongoing",
+        "description": "This case involves employee misconduct and violation of company policies",
+        "created_at": "2023-09-23T05:16:58.989Z",
+        "updated_at": "2023-09-22T17:25:43.359Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d1cca91-dfb4-4f40-9f7a-c7bd1a27f071",
+        "case_name": "Product Liability",
+        "case_type": "Commercial",
+        "date_reported": "2023-09-22T23:56:30.163Z",
+        "status": "Settled",
+        "description": "This case involves liability for a defective product",
+        "created_at": "2023-09-22T22:28:20.845Z",
+        "updated_at": "2023-09-22T19:30:58.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14c5cbce-3597-4dcf-ae0e-e3b82bd11d43",
+        "case_name": "Intellectual Property Theft",
+        "case_type": "Intellectual Property",
+        "date_reported": "2023-09-22T16:40:56.297Z",
+        "status": "Pending",
+        "description": "This case involves the theft of intellectual property",
+        "created_at": "2023-09-23T10:38:49.162Z",
+        "updated_at": "2023-09-22T16:03:22.899Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "76ac57cd-b2a1-40a1-ad85-e309cf89d3b6",
+        "email": "Rebecca76@roq.tech",
+        "firstName": "Riley",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/908.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da0509b5-b82f-4e3e-b22f-db41499056f3",
+        "email": "Genesis34@roq.tech",
+        "firstName": "Ophelia",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3373876",
+        "tenantId": null
+      },
+      {
+        "reference": "8f8715fb-d469-43f3-9485-a78844e8e85d",
+        "email": "Cayla.Blick22@roq.tech",
+        "firstName": "Garth",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/437.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e02dbc00-d30b-4628-b979-751f53877d77",
+        "email": "Jaquan_Stamm@roq.tech",
+        "firstName": "Aliyah",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/999.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7430212-e035-49de-a266-648f9f708204",
+        "email": "Mariana.Kuhic38@roq.tech",
+        "firstName": "Jaycee",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69965710",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "7bedec8a-e099-4bd8-a86d-13e90d1777ed",
+        "policy_name": "Privacy Policy",
+        "policy_type": "Legal",
+        "effective_date": "2023-09-22T19:47:18.839Z",
+        "expiry_date": "2023-09-22T16:55:07.789Z",
+        "description": "This policy outlines our commitment to protecting user privacy.",
+        "created_at": "2023-09-22T16:36:59.426Z",
+        "updated_at": "2023-09-22T16:18:09.503Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "42a6d99f-fde8-40a7-a7e2-241ef3aa4593",
+        "policy_name": "Terms of Service",
+        "policy_type": "Security",
+        "effective_date": "2023-09-23T08:25:33.758Z",
+        "expiry_date": "2023-09-23T11:53:10.630Z",
+        "description": "These are the terms and conditions for using our services.",
+        "created_at": "2023-09-23T12:21:19.368Z",
+        "updated_at": "2023-09-23T08:51:11.707Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "26896b16-b515-47e1-ac2a-b48abd53d20b",
+        "policy_name": "Refund Policy",
+        "policy_type": "Data Protection",
+        "effective_date": "2023-09-22T17:07:42.723Z",
+        "expiry_date": "2023-09-22T18:19:01.584Z",
+        "description": "This policy explains our refund process and eligibility.",
+        "created_at": "2023-09-23T02:11:49.954Z",
+        "updated_at": "2023-09-22T23:02:45.044Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "73f9f438-0979-4aab-b5b4-b3204f0fb57a",
+        "policy_name": "Cookie Policy",
+        "policy_type": "Compliance",
+        "effective_date": "2023-09-22T21:58:57.540Z",
+        "expiry_date": "2023-09-22T15:46:47.523Z",
+        "description": "This policy describes our use of cookies on our website.",
+        "created_at": "2023-09-22T18:39:53.546Z",
+        "updated_at": "2023-09-22T19:36:35.875Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f20c9f90-9897-43ee-ae7b-940bfa680523",
+        "policy_name": "Acceptable Use Policy",
+        "policy_type": "Risk Management",
+        "effective_date": "2023-09-23T01:57:56.792Z",
+        "expiry_date": "2023-09-23T12:22:30.863Z",
+        "description": "This policy defines acceptable use of our products and services.",
+        "created_at": "2023-09-22T16:52:13.144Z",
+        "updated_at": "2023-09-22T21:04:40.734Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "c9b952bc-036b-4610-90c4-ad6f98ae8581",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial",
+        "date_detected": "2023-09-23T01:20:01.772Z",
+        "status": "Under Investigation",
+        "description": "This fraud involves stealing personal information for financial gain.",
+        "created_at": "2023-09-22T13:53:39.678Z",
+        "updated_at": "2023-09-22T16:12:58.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cee5a26-3f9f-480b-931d-542fc5e2f221",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber",
+        "date_detected": "2023-09-22T15:53:07.272Z",
+        "status": "Resolved",
+        "description": "This fraud involves unauthorized use of credit card information.",
+        "created_at": "2023-09-22T13:04:32.381Z",
+        "updated_at": "2023-09-22T16:47:46.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90e30c62-7516-443f-b67e-d6076617d953",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance",
+        "date_detected": "2023-09-22T21:28:04.267Z",
+        "status": "Pending",
+        "description": "This fraud involves making false insurance claims for monetary benefits.",
+        "created_at": "2023-09-22T23:53:27.137Z",
+        "updated_at": "2023-09-22T23:16:12.144Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fd15931-fe14-4569-b762-e10e1e15ea57",
+        "fraud_name": "Phishing Scam",
+        "fraud_type": "Consumer",
+        "date_detected": "2023-09-23T04:33:22.514Z",
+        "status": "Closed",
+        "description": "This fraud involves tricking individuals into revealing sensitive information.",
+        "created_at": "2023-09-23T06:10:07.880Z",
+        "updated_at": "2023-09-23T08:45:16.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5111a673-7596-49eb-975a-55b1874f89ff",
+        "fraud_name": "Online Fraud",
+        "fraud_type": "E-commerce",
+        "date_detected": "2023-09-22T17:19:50.692Z",
+        "status": "Open",
+        "description": "This fraud involves fraudulent activities in online transactions.",
+        "created_at": "2023-09-23T12:22:12.289Z",
+        "updated_at": "2023-09-23T11:10:45.155Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "90df3839-8204-4ffd-bbcc-ffdd23400749",
+        "compliance_name": "Data Protection",
+        "compliance_type": "Legal",
+        "date_implemented": "2023-09-23T12:13:37.256Z",
+        "status": "Compliant",
+        "description": "This compliance ensures protection of personal data and privacy.",
+        "created_at": "2023-09-23T11:09:12.445Z",
+        "updated_at": "2023-09-22T22:46:06.297Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0b4fa12d-850e-4d1a-a275-b41c58e6f03a",
+        "compliance_name": "Anti-Money Laundering",
+        "compliance_type": "Regulatory",
+        "date_implemented": "2023-09-23T12:00:37.281Z",
+        "status": "Non-compliant",
+        "description": "This compliance prevents money laundering and illegal financial activities.",
+        "created_at": "2023-09-23T05:20:20.211Z",
+        "updated_at": "2023-09-22T16:35:04.347Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6b58ca2a-7450-42a3-a893-d3ea16e5e67e",
+        "compliance_name": "Health and Safety",
+        "compliance_type": "Industry Standards",
+        "date_implemented": "2023-09-22T23:57:44.662Z",
+        "status": "In Progress",
+        "description": "This compliance ensures a safe and healthy work environment.",
+        "created_at": "2023-09-22T22:54:30.084Z",
+        "updated_at": "2023-09-22T17:40:36.944Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e67321b5-7370-431a-945c-baee483bb2bf",
+        "compliance_name": "Environmental",
+        "compliance_type": "Internal Policies",
+        "date_implemented": "2023-09-23T06:12:09.515Z",
+        "status": "Pending Review",
+        "description": "This compliance focuses on environmental sustainability and conservation.",
+        "created_at": "2023-09-23T12:19:43.821Z",
+        "updated_at": "2023-09-23T08:17:56.908Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fe0fede8-bc43-482c-9fc4-a24b2ba7d1e0",
+        "compliance_name": "Labor Laws",
+        "compliance_type": "Ethical",
+        "date_implemented": "2023-09-23T02:55:30.558Z",
+        "status": "Approved",
+        "description": "This compliance ensures fair treatment of employees and adherence to labor laws.",
+        "created_at": "2023-09-23T02:32:22.128Z",
+        "updated_at": "2023-09-23T01:55:05.929Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "1b4b34d6-abd1-438a-ad8b-a966ca7eb753",
+        "case_name": "Contract Dispute",
+        "case_type": "Civil",
+        "date_reported": "2023-09-23T06:51:05.814Z",
+        "status": "Ongoing",
+        "description": "This case involves a dispute over a contract agreement.",
+        "created_at": "2023-09-23T12:46:56.869Z",
+        "updated_at": "2023-09-22T20:53:41.834Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c86ec00c-62d4-4dac-9f6b-fa17535c9b4a",
+        "case_name": "Trademark Infringement",
+        "case_type": "Criminal",
+        "date_reported": "2023-09-22T15:36:20.903Z",
+        "status": "Settled",
+        "description": "This case involves unauthorized use of a trademarked brand.",
+        "created_at": "2023-09-22T13:53:24.523Z",
+        "updated_at": "2023-09-23T09:01:01.963Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1ab3a8d-fc73-4cf2-8c6f-169b6ef7ad3d",
+        "case_name": "Product Liability",
+        "case_type": "Commercial",
+        "date_reported": "2023-09-23T01:43:37.967Z",
+        "status": "Pending Trial",
+        "description": "This case involves liability for a defective product.",
+        "created_at": "2023-09-23T06:22:18.460Z",
+        "updated_at": "2023-09-23T06:19:21.010Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8ed7873-f285-4670-91be-ea6480592b5e",
+        "case_name": "Employment Discrimination",
+        "case_type": "Employment",
+        "date_reported": "2023-09-23T12:23:15.414Z",
+        "status": "Closed",
+        "description": "This case involves discrimination in the workplace.",
+        "created_at": "2023-09-22T14:57:22.921Z",
+        "updated_at": "2023-09-23T01:43:54.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b98b565f-6a63-435c-b330-9231484aa6d9",
+        "case_name": "Intellectual Property Theft",
+        "case_type": "Intellectual Property",
+        "date_reported": "2023-09-22T16:23:38.527Z",
+        "status": "Appealed",
+        "description": "This case involves theft of intellectual property.",
+        "created_at": "2023-09-23T02:23:12.357Z",
+        "updated_at": "2023-09-22T20:57:20.907Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3d69703d-5247-4029-bb23-04ce88229442",
+        "email": "Philip_Maggio46@roq.tech",
+        "firstName": "Gerry",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10023145",
+        "tenantId": null
+      },
+      {
+        "reference": "9f72dd22-a521-4b86-9431-affea429b9ad",
+        "email": "Pink1@roq.tech",
+        "firstName": "Devan",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53662911",
+        "tenantId": null
+      },
+      {
+        "reference": "ef5b45ed-98f9-4b30-9ef4-8a360e8c2555",
+        "email": "Etha_Von@roq.tech",
+        "firstName": "Nia",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56273001",
+        "tenantId": null
+      },
+      {
+        "reference": "8517c804-077c-4301-a42d-b98f8b909eb3",
+        "email": "Alverta_Hansen@roq.tech",
+        "firstName": "Grace",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/465.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d700ee26-c54a-4ad8-b6e6-139c028aa14d",
+        "email": "Raleigh98@roq.tech",
+        "firstName": "Donny",
+        "lastName": "Will-Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53519885",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "df538895-4be8-4b6b-9451-4cf206cbd088",
+        "policy_name": "Data Protection Policy",
+        "policy_type": "Internal Policy",
+        "effective_date": "2023-09-22T14:32:18.878Z",
+        "expiry_date": "2023-09-23T07:05:08.744Z",
+        "description": "This policy outlines the guidelines for protecting sensitive data",
+        "created_at": "2023-09-23T01:45:31.885Z",
+        "updated_at": "2023-09-23T05:33:58.905Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cd24fe8f-3d99-4492-95af-2a0cce99dcee",
+        "policy_name": "Code of Conduct",
+        "policy_type": "Customer Policy",
+        "effective_date": "2023-09-22T19:23:27.544Z",
+        "expiry_date": "2023-09-22T15:56:37.430Z",
+        "description": "This policy sets the standards of behavior for employees",
+        "created_at": "2023-09-22T20:58:45.867Z",
+        "updated_at": "2023-09-23T02:37:50.127Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cab06cc3-6d94-41cc-abeb-a8609664eb7a",
+        "policy_name": "Employee Benefits Policy",
+        "policy_type": "Supplier Policy",
+        "effective_date": "2023-09-22T20:23:00.624Z",
+        "expiry_date": "2023-09-22T17:42:56.898Z",
+        "description": "This policy describes the benefits available to employees",
+        "created_at": "2023-09-23T02:43:21.847Z",
+        "updated_at": "2023-09-23T05:58:33.297Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f96b16f-2ef8-4648-9602-e9a8f404f3c5",
+        "policy_name": "IT Security Policy",
+        "policy_type": "Regulatory Policy",
+        "effective_date": "2023-09-23T01:15:00.598Z",
+        "expiry_date": "2023-09-23T10:29:05.247Z",
+        "description": "This policy defines the security measures for IT systems",
+        "created_at": "2023-09-23T06:39:00.025Z",
+        "updated_at": "2023-09-23T09:45:28.269Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "23aa171e-5095-473d-b68a-056534c315ca",
+        "policy_name": "Environmental Sustainability Policy",
+        "policy_type": "Ethics Policy",
+        "effective_date": "2023-09-23T12:16:57.798Z",
+        "expiry_date": "2023-09-22T16:20:04.501Z",
+        "description": "This policy outlines the organization's commitment to environmental sustainability",
+        "created_at": "2023-09-22T17:13:16.937Z",
+        "updated_at": "2023-09-23T04:05:12.491Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "8118a735-fb06-43eb-81d1-38c002f2d51c",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial Fraud",
+        "date_detected": "2023-09-22T20:23:07.476Z",
+        "status": "Active",
+        "description": "This fraud involves stealing someone's identity for financial gain",
+        "created_at": "2023-09-23T02:21:36.409Z",
+        "updated_at": "2023-09-23T05:04:06.459Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25c261b8-b6f0-456e-ad1f-565a077636c4",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber Fraud",
+        "date_detected": "2023-09-23T09:17:57.994Z",
+        "status": "Under Investigation",
+        "description": "This fraud involves unauthorized use of credit card information",
+        "created_at": "2023-09-22T19:41:41.247Z",
+        "updated_at": "2023-09-22T15:00:48.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5da5466f-8103-42ce-8fa1-ab67615394e2",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance Fraud",
+        "date_detected": "2023-09-23T11:01:23.867Z",
+        "status": "Closed",
+        "description": "This fraud involves making false insurance claims for monetary benefits",
+        "created_at": "2023-09-22T20:11:02.127Z",
+        "updated_at": "2023-09-23T03:00:45.026Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e68c366-c13b-4a29-9a50-91997a8e1586",
+        "fraud_name": "Online Scams",
+        "fraud_type": "Online Fraud",
+        "date_detected": "2023-09-22T18:29:59.626Z",
+        "status": "Resolved",
+        "description": "This fraud involves deceiving individuals online for financial gain",
+        "created_at": "2023-09-23T10:52:38.208Z",
+        "updated_at": "2023-09-22T13:59:47.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f8442f8-4637-49a3-bc95-0eca1c2b910f",
+        "fraud_name": "Healthcare Fraud",
+        "fraud_type": "Healthcare Fraud",
+        "date_detected": "2023-09-23T01:37:45.314Z",
+        "status": "Pending",
+        "description": "This fraud involves fraudulent activities in the healthcare industry",
+        "created_at": "2023-09-22T20:51:47.149Z",
+        "updated_at": "2023-09-22T15:07:04.695Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "4d29e8dc-eda5-4bdd-aaa3-92999d41867c",
+        "compliance_name": "Anti-Money Laundering",
+        "compliance_type": "Legal Compliance",
+        "date_implemented": "2023-09-23T00:45:12.013Z",
+        "status": "Compliant",
+        "description": "This compliance ensures prevention of money laundering activities",
+        "created_at": "2023-09-22T13:40:45.888Z",
+        "updated_at": "2023-09-23T09:19:54.968Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "929e104b-4844-4bc1-8295-b5e200360895",
+        "compliance_name": "Data Privacy",
+        "compliance_type": "Industry Compliance",
+        "date_implemented": "2023-09-22T20:42:07.246Z",
+        "status": "Non-Compliant",
+        "description": "This compliance ensures protection of personal data",
+        "created_at": "2023-09-23T11:21:17.415Z",
+        "updated_at": "2023-09-22T13:55:20.763Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "19231842-b299-443c-a1ed-5ec5eee3bbc1",
+        "compliance_name": "Labor Laws",
+        "compliance_type": "Regulatory Compliance",
+        "date_implemented": "2023-09-23T04:49:06.633Z",
+        "status": "In Progress",
+        "description": "This compliance ensures adherence to labor laws and regulations",
+        "created_at": "2023-09-23T07:04:31.673Z",
+        "updated_at": "2023-09-23T09:18:10.044Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e713760e-583b-4a65-92e5-99938ae6a052",
+        "compliance_name": "Environmental Regulations",
+        "compliance_type": "Ethical Compliance",
+        "date_implemented": "2023-09-22T15:00:11.370Z",
+        "status": "Pending Review",
+        "description": "This compliance ensures compliance with environmental regulations",
+        "created_at": "2023-09-22T14:14:09.045Z",
+        "updated_at": "2023-09-22T16:24:31.489Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "85450222-0632-4e7e-956b-6dee9cf1271e",
+        "compliance_name": "Health and Safety",
+        "compliance_type": "Internal Compliance",
+        "date_implemented": "2023-09-23T09:13:14.859Z",
+        "status": "Closed",
+        "description": "This compliance ensures a safe and healthy work environment",
+        "created_at": "2023-09-23T03:37:16.250Z",
+        "updated_at": "2023-09-22T23:16:24.113Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "a8ab8019-1ed1-4a6b-aaff-49741160f8fd",
+        "case_name": "Contract Dispute",
+        "case_type": "Civil Case",
+        "date_reported": "2023-09-22T15:49:00.152Z",
+        "status": "Open",
+        "description": "This case involves a dispute over a contract between parties",
+        "created_at": "2023-09-23T01:59:04.804Z",
+        "updated_at": "2023-09-22T21:55:19.031Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c739a26-8348-479e-a13e-88d679d507d9",
+        "case_name": "Intellectual Property Infringement",
+        "case_type": "Criminal Case",
+        "date_reported": "2023-09-23T02:30:19.670Z",
+        "status": "Closed",
+        "description": "This case involves infringement of intellectual property rights",
+        "created_at": "2023-09-22T16:12:23.342Z",
+        "updated_at": "2023-09-22T18:07:33.859Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4829c5a-ea6c-4edc-80ef-6f780f9627c0",
+        "case_name": "Employment Discrimination",
+        "case_type": "Administrative Case",
+        "date_reported": "2023-09-22T18:40:40.435Z",
+        "status": "Ongoing",
+        "description": "This case involves allegations of employment discrimination",
+        "created_at": "2023-09-22T14:14:11.143Z",
+        "updated_at": "2023-09-23T07:34:21.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5299e47-046d-4ee6-ad78-b47d11234272",
+        "case_name": "Product Liability",
+        "case_type": "Arbitration Case",
+        "date_reported": "2023-09-23T07:42:40.786Z",
+        "status": "Settled",
+        "description": "This case involves liability for defective products",
+        "created_at": "2023-09-23T12:45:40.787Z",
+        "updated_at": "2023-09-23T02:51:52.855Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4eb8c9e4-4050-402f-a095-d843c8a67a34",
+        "case_name": "Fraudulent Misrepresentation",
+        "case_type": "Class Action Case",
+        "date_reported": "2023-09-23T06:47:35.424Z",
+        "status": "Under Review",
+        "description": "This case involves fraudulent misrepresentation of facts",
+        "created_at": "2023-09-22T18:02:27.287Z",
+        "updated_at": "2023-09-22T23:31:27.889Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "76dc3079-7176-48c1-afd3-eea696e61a6a",
+        "email": "Nathan_Brakus55@roq.tech",
+        "firstName": "Barney",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59158898",
+        "tenantId": null
+      },
+      {
+        "reference": "32e107cd-36d7-4c3c-bb3d-c582029cddb9",
+        "email": "Gillian.Fritsch@roq.tech",
+        "firstName": "Jordon",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81644676",
+        "tenantId": null
+      },
+      {
+        "reference": "980e4cf5-b46f-4d10-b4d0-72c2c6e8e040",
+        "email": "Vena75@roq.tech",
+        "firstName": "Willy",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1066.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e55dcb7c-fbbd-4eef-bd72-01f607284e1c",
+        "email": "Sadie61@roq.tech",
+        "firstName": "Korey",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0794a8f0-aa5f-459b-8a07-0708c269dfc6",
+        "email": "Amalia.Kiehn4@roq.tech",
+        "firstName": "Maureen",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75306250",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "86dd3a2c-015c-4287-a89a-f7d4f5deabfd",
+        "policy_name": "Privacy Policy",
+        "policy_type": "Legal",
+        "effective_date": "2023-09-23T07:10:08.861Z",
+        "expiry_date": "2023-09-23T05:40:30.245Z",
+        "description": "This policy outlines our commitment to protecting your privacy.",
+        "created_at": "2023-09-23T06:54:37.724Z",
+        "updated_at": "2023-09-23T06:29:40.846Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "25efda22-09cc-4798-8356-7f60c9cdcbfc",
+        "policy_name": "Terms of Service",
+        "policy_type": "Compliance",
+        "effective_date": "2023-09-22T17:21:12.625Z",
+        "expiry_date": "2023-09-23T07:44:51.389Z",
+        "description": "These are the terms and conditions for using our services.",
+        "created_at": "2023-09-23T02:30:06.206Z",
+        "updated_at": "2023-09-22T17:46:50.681Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4ee699b-c35f-4d72-ae45-5c397efbbc28",
+        "policy_name": "Data Protection Policy",
+        "policy_type": "Data Protection",
+        "effective_date": "2023-09-23T00:16:19.734Z",
+        "expiry_date": "2023-09-22T22:28:16.964Z",
+        "description": "We ensure the security of your personal data with this policy.",
+        "created_at": "2023-09-23T08:04:51.240Z",
+        "updated_at": "2023-09-22T21:58:56.496Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4ecaca41-6219-4725-aac9-5a7894b612de",
+        "policy_name": "Security Policy",
+        "policy_type": "Security",
+        "effective_date": "2023-09-23T11:21:38.595Z",
+        "expiry_date": "2023-09-23T02:25:58.517Z",
+        "description": "Our security policy ensures the safety of your information.",
+        "created_at": "2023-09-23T12:40:23.981Z",
+        "updated_at": "2023-09-23T12:48:31.228Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "683755b5-6b29-4ddb-8cab-e1ab440c16cd",
+        "policy_name": "Cookie Policy",
+        "policy_type": "Website",
+        "effective_date": "2023-09-22T22:47:14.009Z",
+        "expiry_date": "2023-09-23T10:15:25.655Z",
+        "description": "This policy explains the use of cookies on our website.",
+        "created_at": "2023-09-23T11:33:45.543Z",
+        "updated_at": "2023-09-22T12:59:48.575Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "193dc68a-6cd3-4f74-aac4-7d38b0ae8c9e",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Financial",
+        "date_detected": "2023-09-23T10:16:23.811Z",
+        "status": "Active",
+        "description": "This fraud involves stealing someone's identity for financial gain.",
+        "created_at": "2023-09-22T20:51:04.988Z",
+        "updated_at": "2023-09-22T13:25:40.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6f63a56-e89a-4688-86da-2fd005130c83",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Cyber",
+        "date_detected": "2023-09-23T10:36:20.223Z",
+        "status": "Pending",
+        "description": "Credit card fraud is a type of financial fraud using stolen card information.",
+        "created_at": "2023-09-23T11:38:04.375Z",
+        "updated_at": "2023-09-22T15:33:32.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bec3f032-2e2d-4218-b52b-ddcb7990011b",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance",
+        "date_detected": "2023-09-22T22:09:21.420Z",
+        "status": "Resolved",
+        "description": "Insurance fraud refers to false claims made to obtain insurance benefits.",
+        "created_at": "2023-09-22T21:12:46.116Z",
+        "updated_at": "2023-09-23T03:12:43.035Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe2483d4-37d3-4f42-9a2b-706c65f13429",
+        "fraud_name": "Phishing Scam",
+        "fraud_type": "Online",
+        "date_detected": "2023-09-23T01:49:45.324Z",
+        "status": "Investigating",
+        "description": "A phishing scam is an attempt to trick individuals into revealing sensitive information.",
+        "created_at": "2023-09-22T18:33:58.174Z",
+        "updated_at": "2023-09-22T16:17:17.605Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb145744-cec9-4af0-b14d-f0a9b6e31ab2",
+        "fraud_name": "Online Fraud",
+        "fraud_type": "Identity",
+        "date_detected": "2023-09-23T04:19:06.627Z",
+        "status": "Closed",
+        "description": "Online fraud encompasses various fraudulent activities conducted on the internet.",
+        "created_at": "2023-09-22T19:01:25.589Z",
+        "updated_at": "2023-09-22T19:30:49.510Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "2793d650-03a5-4099-a695-8f14b9aec198",
+        "compliance_name": "Data Protection Compliance",
+        "compliance_type": "Legal",
+        "date_implemented": "2023-09-22T22:02:20.999Z",
+        "status": "Compliant",
+        "description": "This compliance ensures the protection of personal data.",
+        "created_at": "2023-09-22T18:28:00.661Z",
+        "updated_at": "2023-09-22T14:39:01.389Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6a4e2519-c755-446e-93b8-7999f107715c",
+        "compliance_name": "Financial Compliance",
+        "compliance_type": "Regulatory",
+        "date_implemented": "2023-09-22T18:59:27.664Z",
+        "status": "Non-compliant",
+        "description": "Financial compliance refers to adherence to financial regulations.",
+        "created_at": "2023-09-23T09:24:12.763Z",
+        "updated_at": "2023-09-23T05:29:28.534Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0606619b-993b-403c-be02-fc5098816d0b",
+        "compliance_name": "Healthcare Compliance",
+        "compliance_type": "Industry-specific",
+        "date_implemented": "2023-09-23T04:34:17.518Z",
+        "status": "Under Review",
+        "description": "Healthcare compliance involves following regulations in the healthcare industry.",
+        "created_at": "2023-09-23T12:03:22.664Z",
+        "updated_at": "2023-09-23T09:22:32.767Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "83ebc4e3-f381-4f45-a9b4-151afc87dee8",
+        "compliance_name": "Environmental Compliance",
+        "compliance_type": "Ethical",
+        "date_implemented": "2023-09-23T07:50:20.784Z",
+        "status": "Pending",
+        "description": "Environmental compliance focuses on meeting environmental regulations.",
+        "created_at": "2023-09-23T05:43:19.760Z",
+        "updated_at": "2023-09-23T12:17:03.008Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "92463b41-9ff4-4b79-90be-1c345f488897",
+        "compliance_name": "Industry-specific Compliance",
+        "compliance_type": "Environmental",
+        "date_implemented": "2023-09-23T07:58:39.629Z",
+        "status": "Expired",
+        "description": "Industry-specific compliance refers to compliance requirements specific to a particular industry.",
+        "created_at": "2023-09-22T16:03:47.678Z",
+        "updated_at": "2023-09-23T02:51:17.895Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "c2de2467-c543-433a-8478-d4dc412534fe",
+        "case_name": "Contract Dispute",
+        "case_type": "Legal",
+        "date_reported": "2023-09-22T22:40:12.710Z",
+        "status": "Open",
+        "description": "This case involves a dispute over a contract agreement.",
+        "created_at": "2023-09-23T07:15:34.196Z",
+        "updated_at": "2023-09-23T00:44:18.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ea983ef-d102-44f3-a56d-6636099943d4",
+        "case_name": "Intellectual Property Infringement",
+        "case_type": "Civil",
+        "date_reported": "2023-09-23T09:34:49.775Z",
+        "status": "Closed",
+        "description": "This case involves infringement of intellectual property rights.",
+        "created_at": "2023-09-22T14:40:25.259Z",
+        "updated_at": "2023-09-22T18:47:43.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8843bed6-6294-470c-a849-e278241c7230",
+        "case_name": "Employment Discrimination",
+        "case_type": "Employment",
+        "date_reported": "2023-09-23T12:44:25.137Z",
+        "status": "Pending",
+        "description": "This case involves a claim of employment discrimination.",
+        "created_at": "2023-09-22T18:09:34.042Z",
+        "updated_at": "2023-09-23T11:09:30.705Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf226fbb-75f3-4eca-b854-43a1f46c9f93",
+        "case_name": "Product Liability",
+        "case_type": "Business",
+        "date_reported": "2023-09-23T12:38:01.012Z",
+        "status": "Settled",
+        "description": "This case involves liability for a defective product.",
+        "created_at": "2023-09-23T07:09:11.661Z",
+        "updated_at": "2023-09-23T07:24:15.122Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d68ecc2-0bf7-4f83-8e2d-3598bafb4dd7",
+        "case_name": "Personal Injury",
+        "case_type": "Personal",
+        "date_reported": "2023-09-22T18:00:42.551Z",
+        "status": "Ongoing",
+        "description": "This case involves personal injury due to negligence.",
+        "created_at": "2023-09-22T15:24:14.630Z",
+        "updated_at": "2023-09-23T03:23:35.525Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "beaffe51-7a87-4fc1-b345-8242482707a0",
+        "email": "Catharine.Hills@roq.tech",
+        "firstName": "Tina",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb28f58e-0cc3-415b-ae30-8d9269a1f8a9",
+        "email": "Kelton.Hessel@roq.tech",
+        "firstName": "Jewel",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/933.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe55554f-4285-4e6b-8003-3f86b56afa94",
+        "email": "Eloisa.Thiel23@roq.tech",
+        "firstName": "Clare",
+        "lastName": "Bernhard-Brakus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48966006",
+        "tenantId": null
+      },
+      {
+        "reference": "c3bc4bd5-ef56-475d-8a59-b820033ef54d",
+        "email": "Naomie_Legros12@roq.tech",
+        "firstName": "Ena",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91429223",
+        "tenantId": null
+      },
+      {
+        "reference": "be878e68-79db-40a3-8a27-2e6ef76731f2",
+        "email": "Jaunita_Friesen@roq.tech",
+        "firstName": "Bonnie",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13290073",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "policy": [
+      {
+        "id": "699603c9-561d-4e78-a6a7-ffdaa7022754",
+        "policy_name": "Data Privacy Policy",
+        "policy_type": "Privacy",
+        "effective_date": "2023-09-23T07:05:57.049Z",
+        "expiry_date": "2023-09-23T05:01:02.270Z",
+        "description": "This policy outlines how we handle customer data",
+        "created_at": "2023-09-23T01:23:35.087Z",
+        "updated_at": "2023-09-22T16:49:27.082Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5e540081-b5c7-45a4-aead-d4795e38e942",
+        "policy_name": "Security Policy",
+        "policy_type": "Security",
+        "effective_date": "2023-09-22T17:00:22.129Z",
+        "expiry_date": "2023-09-23T05:50:11.643Z",
+        "description": "This policy ensures the security of our systems",
+        "created_at": "2023-09-23T08:06:45.926Z",
+        "updated_at": "2023-09-23T06:50:22.968Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f24d9c31-c40c-4fac-9d9c-86447417acf8",
+        "policy_name": "Employee Code of Conduct",
+        "policy_type": "Employee Code",
+        "effective_date": "2023-09-23T06:39:27.188Z",
+        "expiry_date": "2023-09-23T09:58:49.032Z",
+        "description": "This policy sets the standards for employee behavior",
+        "created_at": "2023-09-22T15:51:41.825Z",
+        "updated_at": "2023-09-23T10:01:00.041Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1666a008-da21-482c-ba40-45e3bc317393",
+        "policy_name": "Environmental Policy",
+        "policy_type": "Environmental",
+        "effective_date": "2023-09-23T05:34:58.075Z",
+        "expiry_date": "2023-09-23T04:32:26.375Z",
+        "description": "This policy demonstrates our commitment to the environment",
+        "created_at": "2023-09-22T14:46:12.245Z",
+        "updated_at": "2023-09-23T07:38:15.977Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "33aa6830-5153-4b66-9ed4-4f669247e0d8",
+        "policy_name": "Quality Assurance Policy",
+        "policy_type": "Quality Assurance",
+        "effective_date": "2023-09-22T16:22:07.847Z",
+        "expiry_date": "2023-09-22T21:27:36.261Z",
+        "description": "This policy ensures the quality of our products",
+        "created_at": "2023-09-23T03:59:55.790Z",
+        "updated_at": "2023-09-23T01:28:16.326Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "fraud": [
+      {
+        "id": "c6490334-b0e5-4fb2-8a03-7bbfb6923a9e",
+        "fraud_name": "Identity Theft",
+        "fraud_type": "Identity Theft",
+        "date_detected": "2023-09-23T06:21:04.899Z",
+        "status": "Active",
+        "description": "This fraud involves stealing personal information",
+        "created_at": "2023-09-22T19:47:45.802Z",
+        "updated_at": "2023-09-23T06:31:58.502Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65db7b55-578c-4293-b61c-74b5d22ef09d",
+        "fraud_name": "Credit Card Fraud",
+        "fraud_type": "Credit Card Fraud",
+        "date_detected": "2023-09-22T20:27:38.056Z",
+        "status": "Inactive",
+        "description": "This fraud involves unauthorized use of credit cards",
+        "created_at": "2023-09-23T02:27:03.118Z",
+        "updated_at": "2023-09-22T14:02:00.327Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e1b9a06-1c60-43e3-9b83-eb2cf2d441f4",
+        "fraud_name": "Insurance Fraud",
+        "fraud_type": "Insurance Fraud",
+        "date_detected": "2023-09-23T07:32:07.111Z",
+        "status": "Under Investigation",
+        "description": "This fraud involves making false insurance claims",
+        "created_at": "2023-09-22T18:32:03.676Z",
+        "updated_at": "2023-09-22T12:53:59.523Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba03a3bc-f252-4d15-9abb-cca675689874",
+        "fraud_name": "Phishing Scams",
+        "fraud_type": "Phishing Scams",
+        "date_detected": "2023-09-23T06:37:23.875Z",
+        "status": "Resolved",
+        "description": "This fraud involves tricking people into revealing sensitive information",
+        "created_at": "2023-09-23T05:01:50.805Z",
+        "updated_at": "2023-09-23T00:40:10.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f1b44f2-74c8-4eec-a6f9-52344769feac",
+        "fraud_name": "Ponzi Schemes",
+        "fraud_type": "Ponzi Schemes",
+        "date_detected": "2023-09-23T00:14:02.995Z",
+        "status": "Closed",
+        "description": "This fraud involves fraudulent investment schemes",
+        "created_at": "2023-09-23T11:38:04.192Z",
+        "updated_at": "2023-09-23T01:05:35.810Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "compliance": [
+      {
+        "id": "236cf9b9-80ac-492b-b89e-0b0bbda61924",
+        "compliance_name": "Data Protection Compliance",
+        "compliance_type": "Data Protection",
+        "date_implemented": "2023-09-23T10:36:00.422Z",
+        "status": "Compliant",
+        "description": "This compliance ensures the protection of customer data",
+        "created_at": "2023-09-22T21:29:52.903Z",
+        "updated_at": "2023-09-23T07:58:06.467Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a8bb433b-46a4-4063-9e59-fa0a56b29912",
+        "compliance_name": "Financial Compliance",
+        "compliance_type": "Financial",
+        "date_implemented": "2023-09-23T07:20:30.945Z",
+        "status": "Non-compliant",
+        "description": "This compliance ensures adherence to financial regulations",
+        "created_at": "2023-09-22T14:04:13.027Z",
+        "updated_at": "2023-09-23T05:27:05.232Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "46f2cedf-b283-4c8c-b494-c1c42045c6b8",
+        "compliance_name": "Healthcare Compliance",
+        "compliance_type": "Healthcare",
+        "date_implemented": "2023-09-22T22:29:57.123Z",
+        "status": "In Progress",
+        "description": "This compliance ensures compliance with healthcare laws",
+        "created_at": "2023-09-23T00:41:04.967Z",
+        "updated_at": "2023-09-23T12:06:08.237Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bfe4af66-8c45-4dcd-a318-a5da94904161",
+        "compliance_name": "Environmental Compliance",
+        "compliance_type": "Environmental",
+        "date_implemented": "2023-09-23T03:33:21.186Z",
+        "status": "Under Review",
+        "description": "This compliance ensures adherence to environmental regulations",
+        "created_at": "2023-09-23T00:41:14.968Z",
+        "updated_at": "2023-09-23T10:41:56.994Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "600fbb7c-d70a-403f-8976-1850dda15a66",
+        "compliance_name": "Industry Standards Compliance",
+        "compliance_type": "Industry Standards",
+        "date_implemented": "2023-09-22T18:36:46.319Z",
+        "status": "Completed",
+        "description": "This compliance ensures compliance with industry standards",
+        "created_at": "2023-09-22T14:55:40.557Z",
+        "updated_at": "2023-09-23T07:36:28.333Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedcase": [
+      {
+        "id": "6ee146e9-ecac-4a83-94dc-0eae0e3cbc65",
+        "case_name": "Contract Dispute",
+        "case_type": "Contract Dispute",
+        "date_reported": "2023-09-22T23:47:29.274Z",
+        "status": "Open",
+        "description": "This case involves a dispute over a contract",
+        "created_at": "2023-09-23T12:12:03.890Z",
+        "updated_at": "2023-09-23T08:51:21.457Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f1c7fdd-a1ec-4d45-9c74-5677e77634b8",
+        "case_name": "Intellectual Property Theft",
+        "case_type": "Intellectual Property",
+        "date_reported": "2023-09-23T04:47:13.718Z",
+        "status": "Closed",
+        "description": "This case involves theft of intellectual property",
+        "created_at": "2023-09-22T20:53:28.096Z",
+        "updated_at": "2023-09-23T03:48:09.978Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10eaec06-3295-4b4d-8e21-2db3c46f18f5",
+        "case_name": "Employment Discrimination",
+        "case_type": "Employment Discrimination",
+        "date_reported": "2023-09-23T08:18:13.961Z",
+        "status": "Under Review",
+        "description": "This case involves allegations of employment discrimination",
+        "created_at": "2023-09-23T10:13:00.642Z",
+        "updated_at": "2023-09-22T23:11:00.707Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d57d7f73-67da-4e7b-851a-2f2ae16e53c4",
+        "case_name": "Product Liability",
+        "case_type": "Product Liability",
+        "date_reported": "2023-09-22T20:06:16.945Z",
+        "status": "Settled",
+        "description": "This case involves liability for a defective product",
+        "created_at": "2023-09-23T09:56:40.687Z",
+        "updated_at": "2023-09-23T09:32:43.913Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44d42b92-1cd4-42b8-a06c-49f83f3e34bb",
+        "case_name": "Trademark Infringement",
+        "case_type": "Trademark Infringement",
+        "date_reported": "2023-09-23T08:32:11.662Z",
+        "status": "Ongoing",
+        "description": "This case involves infringement of a trademark",
+        "created_at": "2023-09-22T19:39:08.456Z",
+        "updated_at": "2023-09-23T02:15:59.787Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7c916090-7edf-497f-9f7c-b2160bd452ad",
+        "email": "Giovanny.Cartwright@roq.tech",
+        "firstName": "Dejah",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/31.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca8a8648-1853-4ed4-8fc4-d52a87df5645",
+        "email": "Emelia.Metz74@roq.tech",
+        "firstName": "Hipolito",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11686039",
+        "tenantId": null
+      },
+      {
+        "reference": "9d99b55a-1d53-4a19-96e3-1fb3d2f201e7",
+        "email": "Stephany.Block@roq.tech",
+        "firstName": "Quinten",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36033841",
+        "tenantId": null
+      },
+      {
+        "reference": "3928d4c0-fa89-4a08-bfa7-9a4646fd1bc5",
+        "email": "Rickey_Bahringer15@roq.tech",
+        "firstName": "Victoria",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b842507-c3b3-4846-acc9-d07082e66502",
+        "email": "Raul.Koss47@roq.tech",
+        "firstName": "Laurie",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21958028",
+        "tenantId": null
+      }
+    ]
+  }
+]
